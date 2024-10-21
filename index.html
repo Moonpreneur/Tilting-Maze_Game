@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tilting Maze Game</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="logo">
+        <img src="website-logo.png" alt="website-logo">
+    </div>
+
+   
+       
+      </div>
+    <div id="page1" class="center-page">
+        <div id="title-bar"></div>
+      <h1>Tilting Maze Game</h1>
+      <button id="howToPlayBtn">How to Play</button>
+    </div>
+    <div id="page2" class="center-page" style="display:none;">
+      <div class="instructions-container">
+        <p class="no-wrap">- Be the first player to move every ball to the center of the maze.</p>
+        <p class="no-wrap">- Click the joystick to start moving the balls using tilt motion.</p>
+        <p class="no-wrap">- Press ESC to pause the game or reset anytime.</p>
+        <p style="font-size: 28px; color: red; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Good Luck!</p>
+
+        <button id="startGameBtn">Start Game</button>
+      </div>
+      
+    </div>
+
+
+    <div id="page3" style="display:none;">
+      <div id="game">
+        <div id="maze"></div>
+        <div id="joystick">
+          <div class="joystick-arrow"></div>
+          <div class="joystick-arrow"></div>
+          <div class="joystick-arrow"></div>
+          <div class="joystick-arrow"></div>
+          <div id="joystick-head"></div>
+        </div>
+        <div id="note">
+          Click the joystick to start!
+          <p>Move every ball to the center. Ready for hard mode? Press H</p>
+        </div>
+      
+      </div>
+      <button id="resetGameBtn">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
